@@ -1,0 +1,60 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.wsam.io",
+  "serialNumber": "1234567890",
+  "teamIdentifier": "TMDCYG7VS6",
+  "organizationName": "Wsam.io",
+  "description": "Business Card",
+  "logoText": "Wsam.io",
+  "foregroundColor": "#FFFFFF",
+  "backgroundColor": "#183139",
+  "labelColor": "#FFFFFF",
+  "barcode": {
+    "message": "https://wsam.io/hub/omar",
+    "format": "PKBarcodeFormatQR",
+    "messageEncoding": "iso-8859-1"
+  },
+  "generic": {
+    "primaryFields": [
+      {
+        "key": "name",
+        "label": "NAME",
+        "value": "Omar Ayoub"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "title",
+        "label": "TITLE",
+        "value": "Software Engineer"
+      },
+      {
+        "key": "company",
+        "label": "COMPANY",
+        "value": "Company Z"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "phone",
+        "label": "PHONE",
+        "value": "966583385596"
+      },
+      {
+        "key": "email",
+        "label": "EMAIL",
+        "value": "omar.ayoub@wsam.io"
+      },
+      {
+        "key": "website",
+        "label": "WEBSITE",
+        "value": "http://wsam.io/"
+      },
+      {
+        "key": "address",
+        "label": "ADDRESS",
+        "value": "Taif City"
+      }
+    ]
+  }
+}
