@@ -2,3 +2,5 @@
 *.pem
 /bin
 /obj
+assets.pass/manifest.json
+assets.pass/signature
