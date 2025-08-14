@@ -1,5 +1,10 @@
 # Apple Wallet .pkpass Generator — Windows 11 Guide (PassKit, .NET 9)
 
+![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet)
+![Windows](https://img.shields.io/badge/OS-Windows%2010/11-0078D6?logo=windows)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
+
 Generate valid Apple Wallet passes (`.pkpass`) from a local folder using .NET 9.  
 This repo follows a minimal, step-by-step flow: **manifest → signature (detached CMS) → bundle (.pkpass)**.
 
@@ -21,7 +26,7 @@ To build and sign Apple Wallet passes on Windows, you’ll need:
 
 1. Press **Windows + R**, type `certmgr.msc`, and press **Enter**.  
 2. Expand **Personal** → right-click **Certificates** → **All Tasks** → **Advanced Operations** → **Create Custom Request**.  
-3. **Next** → **Next** → choose **Legacy key** (or “(No template) CNG key” if legacy isn’t available) and set **Request format** to **PKCS #10**.  
+3. **Next** → **Next** → choose **(No template) Legacy key** (or “(No template) CNG key” if legacy isn’t available) and set **Request format** to **PKCS #10**.  
 4. **Next** → in **Certificate Information**, expand **Details** → click **Properties**.  
 5. **General** tab: set a **Friendly name** (recommended: exactly your Apple **Pass Type ID**).  
 6. **Subject** tab:  
